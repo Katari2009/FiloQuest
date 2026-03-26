@@ -18,4 +18,6 @@ Esta aplicación está configurada para ser desplegada en Vercel como una **Sing
     *   Si usas la API de Gemini, asegúrate de añadir `GEMINI_API_KEY` en la sección de "Environment Variables" de Vercel.
 5.  **Despliega**: Haz clic en "Deploy".
 
-El archivo `vercel.json` ya está configurado para manejar las rutas del lado del cliente, asegurando que todas las URL apunten a `index.html`.
+### Solución de Problemas Comunes:
+
+*   **Conflictos de Dependencias (ERESOLVE)**: Si encuentras errores de resolución de dependencias (especialmente con React 19), hemos incluido un archivo `.npmrc` con `legacy-peer-deps=true` para mitigar estos conflictos comunes durante la instalación en Vercel.
